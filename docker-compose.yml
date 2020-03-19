@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  covid-api:
+    image: covid-api
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000
+    volumes: 
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules

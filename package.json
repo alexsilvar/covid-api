@@ -1,0 +1,32 @@
+{
+  "name": "covid-api",
+  "version": "1.0.0",
+  "description": "API WebScrapping worldmeter/corona",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsilvar/covid-api.git"
+  },
+  "keywords": [
+    "API",
+    "COVID-19"
+  ],
+  "author": "Alexsander R.S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexsilvar/covid-api/issues"
+  },
+  "homepage": "https://github.com/alexsilvar/covid-api#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5"
+  }
+}
